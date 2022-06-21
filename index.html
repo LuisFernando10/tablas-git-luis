@@ -10,6 +10,13 @@
             .table-3{
                 width: 180px;
             }
+
+            .table-4{
+                height: 170px;
+            }
+            .table-4 tr{
+                height: 30px;
+            }
         </style>
     </head>
     <body>
@@ -104,5 +111,29 @@
                 </tr>
             </tbody>
         </table>
+        <br>
+
+        <h2>Tabla 4: Rowspan</h2>
+        <hr>
+
+        <table border="2" class="table-4">
+            <tbody>
+                <tr>
+                    <td rowspan="2">Uno</td>
+                    <td colspan="5">Dos</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" rowspan="2">Unidos</td>
+                    <td colspan="2" rowspan="2">Cuatro</td>
+                    <td rowspan="2">Seis</td>
+                </tr>
+
+                <tr>
+                    <td>Uno</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br><br><br><br><br>
     </body>
 </html>
