@@ -6,6 +6,11 @@
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Tablas GIT</title>
+        <style>
+            .table-3{
+                width: 180px;
+            }
+        </style>
     </head>
     <body>
         <h1>Tablas en HTML</h1>
@@ -67,6 +72,35 @@
                     <td>Jamaica</td>
                     <td>Italia</td>
                     <td>España</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+        <h2>Tabla 3: Colspan</h2>
+        <hr>
+
+        <table border="1" class="table-3">
+            <thead>
+                <tr>
+                    <th colspan="6">Título Principal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="6">Fila combinada 1</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Combinada 1</td>
+                    <td colspan="2">Combinada 2</td>
+                    <td>Simple 3</td>
+                    <td>Simple 4</td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">Combinada 1</td>
+                    <td colspan="3">Combinada 2</td>
                 </tr>
             </tbody>
         </table>
